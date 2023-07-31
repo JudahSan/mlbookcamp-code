@@ -19,4 +19,7 @@ Did you take notes? You can share them here (or in each unit separately)
 * [Notes from Sebastián Ayala Ruano](https://github.com/sayalaruano/100DaysOfMLCode/blob/main/Classification/Notes/NotesDay14.md)
 * [Notes from Alvaro Navas](https://github.com/ziritrion/ml-zoomcamp/blob/main/notes/04_01_classification_eval_metrics.md)
 * [Notes from froukje](https://github.com/froukje/ml-zoomcamp/blob/main/week4/Lecture_4_metrics.ipynb)
+* [Notes from Hareesh Tummala](https://github.com/tummala-hareesh/ml_zoomcamp_ht/blob/main/notes/week-4-notes.md)
+* [Notes from Memoona Tahira](https://github.com/MemoonaTahira/MLZoomcamp2022/tree/main/Notes/Week_4%20-evaluation_metrics_for_ML_model)
 * Add your notes here
+

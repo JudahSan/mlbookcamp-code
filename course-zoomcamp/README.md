@@ -1,32 +1,44 @@
 # Machine Learning Zoomcamp
 
-<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="../images/zoomcamp.jpg" /></a>
+<img src="../images/zoomcamp.jpg" />
 
 
 <p align="center">
   <a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
 </p>
 
-* [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
-* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
-* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+* Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel
 * [Course telegram channel](https://t.me/mlzoomcamp)
+* [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 
+
+
+### Syllabus 
+
+- [Introduction to Machine Learning](#1-introduction-to-machine-learning)
+- [Machine Learning for Regression](#2-machine-learning-for-regression)
+- [Machine Learning for Classification](#3-machine-learning-for-classification)
+- [Evaluation Metrics for Classification](#4-evaluation-metrics-for-classification)
+- [Deploying Machine Learning Models](#5-deploying-machine-learning-models)
+- [Decision Trees and Ensemble Learning](#6-decision-trees-and-ensemble-learning)
+- [Neural Networks and Deep Learning](#8-neural-networks-and-deep-learning)
+- [Serverless Deep Learning](#9-serverless-deep-learning)
+- [Kubernetes and TensorFlow Serving](#10-kubernetes-and-tensorflow-serving)
 
 ## Taking the course
 
-### 2022 Cohort
+### 2023 Cohort
 
-We start the course again in September 2022
+We start the course again in September 2023
 
 * [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
 * Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
 * Join the [course telegram channel](https://t.me/mlzoomcamp)
 * Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * [Tweet about it](https://ctt.ac/XZ6b9)
-* Start date: September 5
-* If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)  
-* All the materials specific to the 2022 will be in [the 2022 cohort folder](./cohorts/2022/) 
+* Start date: 11 September 
+* If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)
+* All the materials specific to the 2023 will be in [the 2023 cohort folder](./cohorts/2023/) 
 
 
 ### Self-paced mode
@@ -43,7 +55,7 @@ To take the best out of this course, we recommened this:
 
 Of course, you can take each module independently.
 
-### Pre-preqiusites
+### Prerequisites
 
 * Prior programming experience (at least 1+ year)
 * Being comfortable with command line 
@@ -147,11 +159,6 @@ To make discussions in Slack more organized:
 - 5.10 [Homework](05-deployment/homework.md)
 
 
-## 5b. Bento ML
-
-More information coming soon! 
-
-
 ## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
 - 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
@@ -168,7 +175,20 @@ More information coming soon!
 - 6.12 [Homework](06-trees/homework.md)
 
 
-## 7. [Midterm Project](07-midterm-project/)
+## 7. [Production-Ready Machine Learning (Bento ML)](07-bentoml-production/)
+
+- 7.1 [Intro/Session Overview](07-bentoml-production/01-intro.md)
+- 7.2 [Building Your Prediction Service with BentoML](07-bentoml-production/02-build-bento-service.md)
+- 7.3 [Deploying Your Prediction Service](07-bentoml-production/03-deploy-bento-service.md)
+- 7.4 [Sending, Receiving and Validating Data](07-bentoml-production/04-validation.md)
+- 7.5 [High-Performance Serving](07-bentoml-production/05-high-performance.md)
+- 7.6 [Bento Production Deployment](07-bentoml-production/06-production-deployment.md)
+- 7.7 [(Optional) Advanced Example: Deploying Stable Diffusion Model](07-bentoml-production/07-stable-diffusion.md)
+- 7.8 [Summary](07-bentoml-production/08-summary.md)
+- 7.9 [Homework](07-bentoml-production/homework.md)
+
+
+## [Midterm Project](projects/#midterm-project)
 
 Putting everything we've learned so far in practice!
 
@@ -176,6 +196,7 @@ Putting everything we've learned so far in practice!
 ## 8. [Neural Networks and Deep Learning](08-deep-learning/)
 
 - 8.1 [Fashion classification](08-deep-learning/01-fashion-classification.md)
+- 8.1b [Setting up the Environment on Saturn Cloud](08-deep-learning/01b-saturn-cloud.md)
 - 8.2 [TensorFlow and Keras](08-deep-learning/02-tensorflow-keras.md)
 - 8.3 [Pre-trained convolutional neural networks](08-deep-learning/03-pretrained-models.md)
 - 8.4 [Convolutional neural networks](08-deep-learning/04-conv-neural-nets.md)
@@ -221,7 +242,7 @@ Putting everything we've learned so far in practice!
 - 10.11 [Homework](10-kubernetes/homework.md)
 
 
-## 11. [KServe](11-kserve/)
+## 11. [KServe](11-kserve/) (optional)
 
 - 11.1 [Overview](11-kserve/01-overview.md)
 - 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
@@ -233,19 +254,23 @@ Putting everything we've learned so far in practice!
 - 11.8 [Summary](11-kserve/08-summary.md)
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
-
-## 12. [Capstone Project](12-capstone/)
+## [Capstone Project 1](projects/#capstone-1)
 
 Putting everything we've learned so far in practice one more time!
 
-## 13. [Article](13-article/)
+## [Article](article/)
 
 Writing an article about something not covered in the course.
 
-## 14. [Third project](14-project) (optional)
+## [Capstone project 2](projects/#capstone-2) (optional)
 
 For those who love projects!
 
+## [Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)
+
+If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
+
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
 
 ## Previous cohorts
 
@@ -274,10 +299,3 @@ Thanks to the course sponsors for making it possible to run this course
   </a>
 </p>
 
-Thanks to our friends for spreading the word about the course
-
-<p align="center">
-  <a href="https://dphi.tech/">
-    <img height="75" src="https://datatalks.club/images/partners/dphi.png">
-  </a>
-</p>
